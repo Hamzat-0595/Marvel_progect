@@ -1,0 +1,30 @@
+.CharactersList {
+  display: flex;
+  margin: 53px auto 0;
+  max-width: 1100px;
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 675px;
+
+    gap: 25px 30px;
+  }
+
+  &__btn {
+    width: 170px;
+    height: 38px;
+    margin-bottom: 30px;
+    margin-left: 244px;
+    clip-path: polygon(
+      0% 40%,
+      11% 0%,
+      100% 0%,
+      100% 0%,
+      100% 65%,
+      89% 100%,
+      0% 100%,
+      0 95%
+    );
+  }
+}

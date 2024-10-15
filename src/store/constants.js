@@ -1,0 +1,4 @@
+export const SAVE_CHARATERS = "SAVE_CHARATERS";
+export const SELECT_CHARATER = "SELECT_CHARATER";
+
+export const SAVE_COMICS = "SAVE_COMICS";

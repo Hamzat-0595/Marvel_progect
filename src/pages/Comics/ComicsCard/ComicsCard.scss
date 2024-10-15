@@ -1,0 +1,29 @@
+.ComicsCard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  &__icon {
+    width: 225px;
+    height: 346px;
+  }
+
+  &__name {
+    width: 225px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    text-align: left;
+    top: 431px;
+    left: 3304px;
+  }
+  &__price {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    text-align: left;
+    top: 472px;
+    left: 3888px;
+    margin: 0;
+  }
+}

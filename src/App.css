@@ -1,0 +1,49 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.navBar__name {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32.81px;
+  text-align: left;
+  height: 37px;
+  top: 1775px;
+  left: -6px;
+}
+
+.navBar__name-red {
+  color: #9f0013;
+}
+
+.navBar__link-wrapper {
+  display: flex;
+  color: #000000;
+}
+
+.navBar__link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.navBar__link-active {
+  color: #9f0013;
+  text-decoration: none;
+}
+
+.slesh {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32.81px;
+  text-align: left;
+  height: 81px;
+  top: 1775px;
+  left: -6px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
